@@ -1,0 +1,746 @@
+
+@inproceedings {icaps16-100,
+    track    = {​Main Track},
+    title    = {Recursive Polynomial Reductions for Classical Planning},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13088},
+    author   = {Jan Tozicka and  Jan Jakubuv and  Antonín Komenda},
+    abstract = {Reducing accidental complexity in planning problems is a well-established method for increasing efficiency of classical planning. Removal of superfluous facts and actions, and problem transformation by recursive macro actions are representatives of such methods working directly on input planning problems. Despite of its general applicability and thorough theoretical analysis, there is
+only a sparse amount of experimental results.
+
+In this paper, we adopt selected reduction methods from literature and amend them with a generalization-based reduction scheme and auxiliary reductions. We show that all presented reductions are polynomial in time to the size of an input problem. All reductions applied in a recursive manner produce only safe (solution preserving) abstractions of the problem, and they can implicitly represent exponentially long plans in a compact form. Experimentally, we validate efficiency of the presented reductions on the IPC benchmark set and show average 24% reduction over all problems. Additionally, we experimentally analyze the trade-off between increase of coverage and decrease of the plan quality.},
+    keywords = {Classical planning}
+}
+
+@inproceedings {icaps16-104,
+    track    = {​Main Track},
+    title    = {Checking the Dynamic Consistency of Conditional Temporal Networks with Bounded Reaction Times},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13108},
+    author   = {Luke Hunsberger and  Roberto Posenato},
+    abstract = {A Conditional Simple Temporal Network (CSTN) includes not only time-points and temporal constraints, but also observation time-points whose execution yields information during run-time. This incrementally revealed information eventually determines a complete scenario. Different time-points and temporal constraints may apply in different scenarios.
+The most important property of a CSTN is whether it is dynamically consistent (DC)—that is, whether there exists a strategy for executing its time-points such that all applicable constraints are guaranteed to be satisfied no matter which scenario is incrementally revealed during execution.
+The definition of dynamic consistency allows an execution strategy to react to observations after any positive delay, no matter how small. An alternative definition allows instantaneous reactions. Recent work defined ?-dynamic consistency, which requires all reaction times to be bounded below by a fixed ? > 0. An exponential algorithm for checking the ?-DC property has been presented, but not empirically evaluated.
+This paper presents an ?-DC-checking algorithm that is based on the propagation of labeled constraints. The algorithm is an extension of an existing DC-checking algorithm for CSTNs. The new algorithm is proven to be sound and complete; and an empirical evaluation using networks drawn from real-world ex- amples demonstrates its scalability. This is the first empirical evaluation of any ?-DC-checking algorithm for CSTNs},
+    keywords = {Scheduling,Temporal planning}
+}
+
+@inproceedings {icaps16-106,
+    track    = {​​Robotics Track},
+    title    = {Experience-Based Robot Task Learning and Planning with Goal Inference},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13175},
+    author   = {Vahid Mokhtari and  Luis Seabra Lopes and  Armando Jose Pinho},
+    abstract = {Learning and deliberation are required to endow a robotwith the capabilities to acquire knowledge, perform a variety of tasks and interactions, and adapt to open-ended environments. This paper explores the notion of experience-based planning domains (EBPDs) for task-level learning and planning in robotics. EBPDs rely on methods for a robot to: (i) obtain robot activity experiences from the robot's performance; (ii) conceptualize each experience to a task model called activity schema; and (iii) exploit the learned activity schemata to make plans in similar situations. Experiences are episodic descriptions of plan-based robot activities including environment perception, sequences of applied actions and achieved tasks. The conceptualization approach integrates different techniques including deductive generalization, abstraction and feature extraction to learn activity schemata. A high-level task planner was developed to find a solution for a similar task by following an activity schema. In this paper, we extend our previous approach by integrating goal inference capabilities. The proposed approach is illustrated in a restaurant environment where a service robot learns how to carry out complex tasks.},
+    keywords = {planning domain representations for robotics applications,acquisition of planning models for robotics,learning action and task models,integrated planning and execution in robotic architectures,real-world planning applications for autonomous robots}
+}
+
+@inproceedings {icaps16-108,
+    track    = {​​​Applications Track},
+    title    = {Planning Curtailment of Renewable Generation in Power Grids},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13050},
+    author   = {Sambaran Bandyopadhyay and  Pratyush Kumar and  Vijay Arya},
+    abstract = {The increasing penetration of renewable sources like solar energy add new dimensions in planning power grid operations. We study the problem of curtailing a subset of prosumers generating solar power with the twin goals of being close to a target collection and maintaining fairness across prosumers. The problem is complicated by the uncertainty in the amount of energy fed-in by each prosumer and the large problem size in terms of number of prosumers. To meet these challenges, we propose an algorithm based on the Combinatorial Multi-Armed Bandit problem with an approximate Knapsack based oracle. With real-data on solar panel output across multiple prosumers, we are able to demonstrate the effectiveness of the proposed algorithm.},
+    keywords = {Evaluation; testing; and validation of P&S applications,Description and modeling of novel application domains,Integration of multiple P&S techniques; or of P&S techniques with techniques from other areas}
+}
+
+@inproceedings {icaps16-109,
+    track    = {​Main Track},
+    title    = {Placement of Loading Stations for Electric Vehicles: Allowing Small Detours},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13086},
+    author   = {Stefan Funke and  Andre Nusser and  Sabine Storandt},
+    abstract = {We consider the problem of covering a street network with loading stations for electric vehicles (EVs). With the resulting placement an EV must be able to travel along shortest paths between any pair of nodes in the network and only require small detours (e.g., at most three kilometers) to recharge along the route. 
+ We show that this problem can be formulated as a Hitting Set problem. Unfortunately, even the instance construction requires too much time and space to be practical. Therefore, we develop several approximation algorithms and heuristics to solve the problem. Our experiments show that even though small, the allowed detours lead to a considerable reduction in the number of required loading stations. Moreover, we devise an algorithm for planning reasonable EV-routes in loading station covered networks. We empirically prove the usability of the routes by evaluating the number of reloading stops and the actually induced detour.},
+    keywords = {Applications and case studies,Multi-objective planning and scheduling,Planning activities; motions and paths}
+}
+
+@inproceedings {icaps16-11,
+    track    = {​​Robotics Track},
+    title    = {Evaluation of Auction-Based Multi-Robot Routing by Parallel Simulation},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/12850},
+    author   = {Akihiro Kishimoto and  Kiyohito Nagano},
+    abstract = {Auction methods are a promising approximation approach for distributed routing including multi-robot routing, where targets on a map need to be allocated to agents while satisfying a team objective. While many algorithms based on sequential single-item (SSI) auctions have been presented, they are currently evaluated by serial simulation where agents serially calculate their bids on a single machine. 
+
+We consider a scenario where a bidding algorithm incurs significant computational overhead due to on-demand calculations of the shortest distances on a road map, 
+and evaluate the bidding algorithm under parallel simulations where agents perform bid calculations simultaneously on a parallel machine. We reveal that the algorithm suffers from severe synchronization overhead ignored by serial simulation. We also present the broadcasting and speculation techniques to alleviate such synchronization overhead. 
+
+Our empirical results on multi-robot routing variants show that both techniques improve the efficiency of parallelization, and speculation achieves more significant improvement.},
+    keywords = {planning and coordination methods for multiple robots}
+}
+
+@inproceedings {icaps16-111,
+    track    = {​Main Track},
+    title    = {A Multi-Parameter Complexity Analysis of Cost-Optimal and Net-Benefit Planning},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13001},
+    author   = {Meysam Aghighi and  Christer Bäckström},
+    abstract = {Aghighi and Bäckström studied cost-optimal planning (COP)
+and net-benefit planning (NBP) for three different number
+domains, the positive integers (Z+), the non-negative
+integers (Z0) and the positive rationals (Q+). These are
+indistinguishable under standard complexity analysis for
+both COP and NBP, but were separated for COP by using
+parameterised complexity analysis. Using the plan cost,k, 
+as parameter, COP was found W[2]-complete for Z+, but
+para-NP-hard for both Z0 and Q+, i.e. presumably much
+harder. NBP was found para-NP-hard for all three domains,
+thus remaining unseparable. We refine their analysis by
+considering combinations with several additional
+parameters and also the non-negative rationals (Q0).
+Examples of new parameters are the plan length, l, and the
+largest denominator of the action costs, d. Some of our
+findings are:
+(1)~COP remains W[2]-hard for all domains, even if combining 
+all parameters;
+(2)~COP for Z0 is in W[2] for the combined parameter <k,l>;
+(3)~COP for Q+ is in W[2] for the combined parameter<k,d> and
+(4)~COP for Q0 is in W[2] for the combined parameter<k,d,l>.
+For NBP we consider further additional parameters, where
+the most crucial one for reducing complexity is the sum of
+variable utilities, t. Our results help to further
+understand the previous results, eg. the separation
+between Z+ and Q+ for COP, and they also refine the
+previous connections with empirical findings.},
+    keywords = {Classical planning,Complexity analysis}
+}
+
+@inproceedings {icaps16-117,
+    track    = {​Main Track},
+    title    = {The Mathematics of Dispatchability Revisited},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13002},
+    author   = {Paul Morris},
+    abstract = {Dispatchability is an important property for the efficient execution of temporal plans where the temporal constraints are represented as a Simple Temporal Network (STN).  It has been shown that every STN may be reformulated as a dispatchable STN, and dispatchability ensures that the temporal constraints need only be satisfied locally during execution.  Recently, it has also been shown that Simple Temporal Networks with Uncertainty, augmented with wait edges, are Dynamically Controllable provided every projection is dispatchable.  Thus, the dispatchability property has both theoretical and practical interest.
+
+One thing that hampers further work in this area is the under-developed theory.  The existing definitions are expressed in terms of algorithms, and are less suitable for mathematical proofs. In this paper, we develop a new formal theory of dispatchability in relation to execution.  We exploit this to prove characterizations of dispatchability, including in terms of the structural properties of the STN graph.  This facilitates the potential application of the theory to other areas.},
+    keywords = {Scheduling,Scheduling under uncertainty,Execution; monitoring and repair,Temporal planning}
+}
+
+@inproceedings {icaps16-118,
+    track    = {​Main Track},
+    title    = {An Analysis of Merge Strategies for Merge-and-Shrink Heuristics},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13148},
+    author   = {Silvan Sievers and  Martin Wehrle and  Malte Helmert},
+    abstract = {The merge-and-shrink framework provides a powerful basis for the
+computation of admissible planning heuristics. Recently, it has been
+shown theoretically that non-linear strategies are strictly more
+powerful than linear ones, and several non-linear strategies have
+been proposed and implemented. However, it is still unclear what
+makes up for a "good" merge strategy, and in particular, how much
+of the theoretical potential of non-linear strategies is actually
+exploited by the existing ones. In this paper, we address these
+questions on the accuracy of existing merge strategies. We provide
+an extensive experimental analysis, suggesting that there is still
+room for large improvements. Finally, we present a simple non-linear
+strategy that considerably improves over the efficiency of the
+existing merge strategies.},
+    keywords = {Classical planning,Search techniques}
+}
+
+@inproceedings {icaps16-123,
+    track    = {​​​Applications Track},
+    title    = {Cell Design and Routing of Jobs in a Multisite Make-to-Order Enterprise},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13176},
+    author   = {Manoj Gupta and  Jagadeesh Chandra Bose R P and  Partha Dutta},
+    abstract = {Make-to-order is a manufacturing process in which manufacturing starts once a customer's order is received. A large enterprise may have many such ``make-to-order" shops distributed geographically. The cost and time for executing a job in each of these shops may vary. Therefore, it is important for a multisite enterprise to judiciously decide on where to process the jobs. Ideally, an enterprise would like to minimize the cost while meeting the deadlines and at the same time maximize the utilization of the shops. The time to execute jobs can vary based on how the shops are laid out (the design of shops) and the decision of how jobs are routed (among the various shops). Predicting (or estimating) the likely turnaround time (and cost) for various jobs across the different shops enables the routing decision process. In this paper, we address the three important problems of (i) cell-design, (ii) turnaround time prediction, and (iii) routing of jobs across various shops. We propose (i) a novel approach based on graph partitioning and set cover heuristic to generate a set of cell designs for a shop, (ii) a framework based on machine learning techniques to predict the turnaround time of jobs across various shops, and (iii) a routing algorithm based on dynamic programming and local search heuristic to route jobs such that the overall cost is minimized},
+    keywords = {}
+}
+
+@inproceedings {icaps16-126,
+    track    = {​Main Track},
+    title    = {Efficient Representation of Pattern Databases Using Acyclic Random Hypergraphs},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13093},
+    author   = {Mehdi Sadeqi and  Howard Hamilton},
+    abstract = {A popular way for creating domain-independent heuristic functions is by using abstraction, an abstract (coarse) version of the state space. Abstraction-based heuristic is usually implemented using a pattern database, a lookup table of (abstract state, heuristic value) pairs. Efficient representation and compression of pattern databases has been the topic of substantial amount of ongoing research. In this paper, we present a novel domain-independent algorithm for this purpose using acyclic $r$-partite random hypergraphs. The theoretical and experimental results show that our proposed algorithm provides a consistent representation that works well across many planning problem domains and provides a very good trade-off for space usage and lookup time. This makes it suitable as a standard efficient representation for pattern databases and a benchmark method for other pattern database representation/compression methods.},
+    keywords = {Search techniques}
+}
+
+@inproceedings {icaps16-127,
+    track    = {​Main Track},
+    title    = {Revisiting Goal Probability Analysis in Probabilistic Planning},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13005},
+    author   = {Marcel Steinmetz and  Joerg Hoffmann and  Olivier Buffet},
+    abstract = {Maximizing goal probability is an important objective in probabilistic planning. But there has been little work towards optimal solvers, presumably due to a lack of heuristic estimators of goal probability, and due to the difficulties entailed by the $0$-reward cycles arising in this setting. Yet, there are relevant probabilistic planning problems, like planning with a limited action-cost budget, whose state spaces are acyclic; and there are relevant weaker objectives, like achieving at least a given goal probability threshold, that allow early termination based on maintaining a pessimistic bound in addition to the usual optimistic bound. We explore the space of algorithmic opportunities arising from these observations. We consider three different objectives, and design suitable termination criteria, search algorithm variants, dead-end pruning methods, and node selection strategies. Our evaluation on more than 1000 benchmark instances from the IPPC, resource-constrained planning, and simulated penetration testing shows the substantial benefits of heuristic search and early termination.},
+    keywords = {Classical planning,Probabilistic planning; MDPs and POMDPs,Search techniques}
+}
+
+@inproceedings {icaps16-129,
+    track    = {​Main Track},
+    title    = {Abstractions for Planning with State-Dependent Action Costs},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13028},
+    author   = {Florian Geißer and  Thomas Keller and  Robert Mattmüller},
+    abstract = {Extending the classical planning formalism with state-dependent action costs (SDAC) allows an up to exponentially more compact task encoding. Recent work proposed to use edge-valued multi-valued decision diagrams (EVMDDs) to represent cost functions, which allow to automatically detect and exhibit structure in cost functions and to make heuristic estimators accurately reflect SDAC. However, so far only the inadmissible additive heuristic has been considered in this context. In this paper, we define informative admissible abstraction heuristics, which enable optimal planning with SDAC. We discuss how abstract cost values can be
+extracted from EVMDDs representing concrete cost functions. Our theoretical analysis shows that this is efficiently possible for abstractions that are Cartesian or coarser. We adapt counterexample-guided abstraction refinement approaches to derive such abstractions. An empirical evaluation of the resulting heuristics shows that highly accurate values can be computed quickly.},
+    keywords = {Classical planning}
+}
+
+@inproceedings {icaps16-130,
+    track    = {​Main Track},
+    title    = {Practical Undoability Checking via Contingent Planning},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13091},
+    author   = {Jeanette Daum and  Álvaro Torralba and  Joerg Hoffmann and  Patrik Haslum and  Ingo Weber},
+    abstract = {We consider a general concept of undoability, asking whether a given
+action can always be undone, no matter which state it is applied
+to. This generalizes previous concepts of invertibility, and is
+relevant for search as well as applications. Naive undoability
+checking requires to enumerate all states an action is applicable
+to. Extending and operationalizing prior work in this direction, we
+introduce a compilation into contingent planning, replacing such
+enumeration by standard techniques handling large belief states.  We
+furthermore introduce compilations for checking whether one can always
+get back to an at-least-as-good state, as well as for determining
+partial undoability, i.e., undoability on a subset of states an action
+is applicable to.  Our experiments on IPC benchmarks and in a cloud
+management application show that contingent planners are often
+effective at solving this kind of problem, hence providing a practical
+means for undoability checking.},
+    keywords = {Conformant/contingent planning,Planning under (non-probabilistic) uncertainty}
+}
+
+@inproceedings {icaps16-134,
+    track    = {​Main Track},
+    title    = {From FOND to Robust Probabilistic Planning: Computing Compact Policies that Bypass Avoidable Deadends},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13188},
+    author   = {Alberto Camacho and  Christian Muise and  Sheila McIlraith},
+    abstract = {We address the class of probabilistic planning problems where the objective is to maximize the probability of reaching a prescribed goal. The complexity of probabilistic planning problems makes it difficult to compute high quality solutions for large instances, and existing algorithms either do not scale, or do so at the expense of the solution quality. We leverage core similarities between probabilistic and fully observable non-deterministic (FOND) planning to construct a sound, offline probabilistic planner, ProbPRP, that exploits algorithmic advances from state-of-the-art FOND planner, PRP, to compute compact policies that are guaranteed to bypass avoidable deadends. We evaluate ProbPRP on a selection of benchmarks used in past probabilistic planning competitions. The results show that ProbPRP, in many cases, outperforms the state of the art, computing substantially more robust policies and at times doing so orders of magnitude faster.},
+    keywords = {Probabilistic planning; MDPs and POMDPs}
+}
+
+@inproceedings {icaps16-136,
+    track    = {​Main Track},
+    title    = {Generalized Planning with Procedural Domain Control Knowledge},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/12990},
+    author   = {Javier Segovia and  Sergio Jimenez and  Anders Jonsson},
+    abstract = {Generalized planning is the task of generating a single solution that is valid for a set of planning problems. In this paper we show how to represent and compute generalized plans using procedural Domain Control Knowledge (DCK). We define a <\it divide and conquer> approach that first generates the procedural DCK solving a set of planning problems representative of certain subtasks and then compile it as callable procedures of the overall generalized planning problem. Our procedure calling mechanism allows arbitrary nested and recursive procedure calls and is implemented in PDDL so that off-the-shelf planners can compute and exploit procedural DCK. Experiments show that an off-the-shelf classical planner, using procedural DCK as callable procedures, can compute generalized plans in a wide range of domains including non-trivial ones, such as sorting variable-size lists or DFS traversal of binary trees with variable size.},
+    keywords = {Classical planning,HTN and knowledge-based planning}
+}
+
+@inproceedings {icaps16-138,
+    track    = {​Main Track},
+    title    = {Online Algorithms for the Linear Tape Scheduling Problem},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13032},
+    author   = {Carlos Cardonha and  Lucas Villa Real},
+    abstract = {Even in today's world of increasingly faster storage technologies, magnetic tapes continue to play an essential role in the market. Yet, they are often overlooked by the literature, despite the many changes in the underlying tape architecture since they were first presented. In this article, we introduce the Linear Tape Scheduling Problem (LTSP), which aims to identify scheduling strategies for read and write operations in single-tracked magnetic tapes that minimize the overall response times for read requests. Structurally, LTSP has many similarities with versions of the Traveling Repairmen Problem and of the Dial-a-Ride Problem restricted to the real line. We investigate several properties of LTSP and show how they can be explored in the design of algorithms for the online version of the problem. Computational experiments show that the resulting strategies deliver very satisfactory scheduling plans, which in most cases are clearly superior (potentially differing by one order of magnitude) to those produced by a strategy currently used in the industry.},
+    keywords = {Scheduling,Online/real-time planning and scheduling,Complexity analysis}
+}
+
+@inproceedings {icaps16-140,
+    track    = {​​Robotics Track},
+    title    = {A Practical Framework for Robust Decision-Theoretic Planning and Execution for Service Robots},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13120},
+    author   = {Luca Iocchi and  Laurent Jeanpierre and  María T. Lázaro and  Mouaddib Abdel-Illah},
+    abstract = {The deployment of robots in populated environments is recently gaining more interest because of increased maturity and capability of this technology. In this context, sophisticated planning techniques are required because there is a need of increasing the complexity of the tasks that the robot can accomplish.
+In this paper, we present a practical framework for generation and execution of robust plans for service robots. The proposed framework is particularly suitable
+for service robots involved in situations where perception noise determines action failures and user interaction introduces uncertainty in the task to be executed.
+More specifically, our framework integrates several formalisms to: (i) compactly represent complex tasks using Progressive reasoning units (PRUs); (ii) support perception noise, uncertainty of the outcomes using decision-theoretic planning techniques based on Markov Decision process (MDP) to derive a policy of complex task execution; and (iii) support execution failures by transforming the policy into a Petri-Net Plan (PNP) to have robust execution plans.},
+    keywords = {robot motion; path; task and mission planning and execution,planning domain representations for robotics applications,human-aware planning and execution in human-robot interaction; including safety}
+}
+
+@inproceedings {icaps16-143,
+    track    = {​​Robotics Track},
+    title    = {A Unifying Formalism for Shortest Path Problems with Expensive Edge Evaluations via Lazy Best-First Search over Paths with Edge Selectors},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13065},
+    author   = {Christopher Dellin and  Siddhartha Srinivasa},
+    abstract = {While the shortest path problem has myriad applications, the computational efficiency of suitable algorithms depends intimately on the underlying problem domain. In this paper, we focus on domains where evaluating the edge weight function dominates algorithm running time. Inspired by approaches in robotic motion planning, we define and investigate the Lazy Shortest Path class of algorithms which is differentiated by the choice of an edge selector function. We show that several algorithms in the literature are equivalent to this lazy algorithm for appropriate choice of this selector. Further, we propose various novel selectors inspired by sampling and statistical mechanics, and find that these selectors outperform existing algorithms on a set of example problems.},
+    keywords = {robot motion; path; task and mission planning and execution}
+}
+
+@inproceedings {icaps16-147,
+    track    = {​Main Track},
+    title    = {A Compilation of the Full PDDL+ Language into SMT},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13101},
+    author   = {Michael Cashmore and  Maria Fox and  Derek Long and  Daniele Magazzeni},
+    abstract = {Planning in hybrid systems is key to dealing with real-world applications. PDDL+ supports the representation of domains with mixed discrete and continuous dynamics, and supports events and processes modeling exogenous change.
+Motivated by numerous SAT-based planning approaches, we propose an approach to PDDL+ planning through SMT, describing an SMT encoding that captures all the features of the PDDL+ problem as published by Fox and Long 2006. The encoding can be applied on domains with nonlinear continuous change. We apply this encoding in a simple planning algorithm, demonstrating excellent results on a set of benchmark problems.},
+    keywords = {Planning in mixed discrete / continuous domains,Constraint reasoning / OR techniques}
+}
+
+@inproceedings {icaps16-148,
+    track    = {​Main Track},
+    title    = {Bound to Plan: Exploiting Classical Heuristics via Automatic Translations of Tail-Recursive HTN Problems},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13174},
+    author   = {Ron Alford and  Gregor Behnke and  Daniel Höller and  Pascal Bercher and  Susanne Biundo and  David Aha},
+    abstract = {Hierarchical Task Network (HTN) Planning is an expressive formalism used to encode domain-specific search control knowledge and to reason about procedural structures. Yet the cornucopia of modern heuristic search techniques remains largely unincorporated in current HTN planners, in part because these search techniques rely on size-bounded data structures that do not exist for all HTN problems. However, many HTN problems are either tail-recursive, allowing SHOP2-style progression-based HTN planners to reason about relatively small task networks, or acyclic, which provides termination guarantees for decomposition planners such as PANDA. We formally define size bounds for HTN progression, and show that we can find the minimum and maximum progression bound for acyclic and tail-recursive HTN problems in polynomial time. This allows us to provide three automatic translations of tail-recursive HTN problems to PDDL: linear and quadratic STRIPS translations of totally-ordered and partially-ordered problems, respectively, and a linear translation of partially-ordered problems for ADL-capable planners. Finally, we show that PDDL planners can efficiently plan with this translated HTN knowledge on a variety of domains.},
+    keywords = {Classical planning,Search techniques,HTN and knowledge-based planning,Complexity analysis}
+}
+
+@inproceedings {icaps16-152,
+    track    = {​Main Track},
+    title    = {Domain Model Acquisition in Domains with Action Costs},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13141},
+    author   = {Peter Gregory and  Alan Lindsay},
+    abstract = {This paper addressed the challenge of automated numeric domain model acquisition from observations.  Many industrial and commercial applications of planning technology rely on numeric planning models.  For example, in the area of autonomous systems and robotics, an autonomous robot often has to reason about its position in space, power levels and storage capacities.  It is essential for these models to be easy to construct.  Ideally, they should be automatically constructed.
+
+Learning the structure of planning domains from observations of action traces has produced successful results in classical planning.  In this work, we present the first results in generalising approaches from classical planning to numeric planning.  We restrict the numeric domains to those that include fixed action costs.  Taking the finite state automata generated by the LOCM family of algorithms, we learn costs associated with machines; specifically to the object transitions and the state parameters.  We learn action costs from action traces (with only the final cost of the plans as extra information) using a constraint programming approach.  We demonstrate the effectiveness of this approach on standard benchmarks.},
+    keywords = {Knowledge engineering for planning and scheduling}
+}
+
+@inproceedings {icaps16-158,
+    track    = {​​Robotics Track},
+    title    = {Multi-Agent Path Finding with Kinematic Constraints},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13183},
+    author   = {Wolfgang Hoenig and  T. K. Satish Kumar and  Liron Cohen and  Hang Ma and  Hong Xu and  Nora Ayanian and  Sven Koenig},
+    abstract = {Multi-Agent Path Finding (MAPF) is well studied in both AI and robotics. 
+Given a discretized environment and a set of agents with assigned start 
+and goal locations, modern solvers can quickly find conflict-free paths 
+with a user-defined sub-optimality guarantee. However, these approaches 
+make simplifying assumptions that ignore the kinematic constraints - in 
+real life, robots are constrained by their kinematics such as maximum 
+velocities and suffer from imperfect plan execution. This unfortunately 
+prevents the direct use of powerful MAPF solvers developed in the AI 
+community. In this paper, we introduce a novel algorithm which 
+postprocesses the output of a MAPF solver to create schedules that can 
+be executed on real robots. The schedules produced by our algorithm work 
+on non-holonomic robots, allow for kinematic constraints, provide a 
+guaranteed safety distance between any two robots, and exploit slack 
+which can be used to avoid costly replanning. Our approach uses the 
+algorithmic framework of simple temporal problems that are well studied 
+for their simplicity and tractability. We evaluate our approach in 
+simulation as well as on real differential-drive robots, showcasing how 
+the resulting plan obeys the kinematic constraints.},
+    keywords = {planning and coordination methods for multiple robots,robot motion; path; task and mission planning and execution,real-world planning applications for autonomous robots}
+}
+
+@inproceedings {icaps16-17,
+    track    = {​Main Track},
+    title    = {Stronger Privacy Preserving Projections for Multi-Agent Planning},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13095},
+    author   = {Guy Shani and  Shlomi Maliah and  Roni Stern},
+    abstract = {Collaborative privacy-preserving planning (CPPP) is a multi-agent planning task in which agents need to achieve a common set of goals without revealing certain private information to each other. In many privacy-aware planning algorithms the individual agents reason about a projection of the multi-agent problem onto a single agent classical planning problem. 
+For example, an agent can behave as if it controls the public actions of other agents, ignoring their unknown private preconditions and effects. This projection, however, contains very minimal information, ignoring the dependencies between public actions of other agents. We propose a stronger type of projection, in which the information about the dependencies between the public actions is published to all agents. In addition, we propose a new definition of privacy referring to the number of private facts or objects an agent controls, and show that we do not disclose such information.
+The benefits of our stronger projection are demonstrated by showing that it produces high level plans very fast, solving more benchmark problems than any other state-of-the-art privacy preserving planners.},
+    keywords = {Distributed and multi-agent planning}
+}
+
+@inproceedings {icaps16-173,
+    track    = {​​Robotics Track},
+    title    = {Speeding Up A* Search on Visibility Graphs Defined Over Quadtrees to Enable Long Distance Path Planning for Unmanned Surface Vehicles},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13155},
+    author   = {Brual Shah and  Satyandra K. Gupta},
+    abstract = {Over the last ten years, substantial progress has been made in the development of low-cost unmanned surface vehicles (USVs). There are a number of civilian applications where deploying USVs can significantly reduce costs, improve safety, and increase operational efficiencies. 
+
+We are interested in path planning over long distances in complex marine environments.  The available free space in marine environment changes over time as a result of tides, environmental restrictions, and weather.  Low tides may make it infeasible to go through the regions with shallow waters. Environmental restrictions may present the unmanned surface vehicle to go through certain protected marine regions for certain periods of times.  Weather induced waves may prohibit traveling over certain areas due to high collision risks.  As a result of these considerations, the free space region in the marine environments needs to be dynamically generated and updated. Consider a representative case of 100 km by 100 km marine region. This region may need thousands of complex polygons to represent the obstacles. We cannot justify the computational time and efforts needed to build roadmaps if they cannot be reused due to changes in the obstacles.  
+  
+Quadtrees are better spatial data structures to represent the complex marine environment compared to grids. 100km by 100km region can often be represented with hundred thousand or fewer nodes in a quadtree. This leads to a reduction of more than a thousand times in terms of spatial complexity over grid based representation. We present an algorithm for long distance path planning in complex marine environments using A* search on visibility graphs defined over quad trees. Visibility graphs have been shown to be useful to compute optimal paths in the presence of complex obstacle fields. However, the computational performance of visibility graphs degrades rapidly as the region to be searched becomes large and the number of nodes in the visibility graph increase rapidly. This paper introduces a number of techniques to speed up the A* search process and makes it feasible to compute paths using visibility graphs over large regions. We exploit the inherent characteristics of quadtree data structures to speed up the geometric computation. We impose spatial constraints to limit the branching factor during the search. We also present an improved heuristic to handle large obstacles in the regions. Path computed using the proposed approach can be used to generate trajectories and support a wide variety of missions.},
+    keywords = {robot motion; path; task and mission planning and execution,real-world planning applications for autonomous robots}
+}
+
+@inproceedings {icaps16-18,
+    track    = {​Main Track},
+    title    = {Online Macro Generation for Privacy Preserving Planning},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13013},
+    author   = {Guy Shani and  Ronen Brafman and  Shlomi Maliah},
+    abstract = {Agents with private actions that use Multi-Agent Forward Search (MAFS), often repeatedly develop similar paths. We describe a simple technique for online macro generation that provides agents with shortcuts that reuse successful previous action sequences. By focusing on specific sequences that end with a single public action only, we are able to address the utility problem -- our technique has little overhead and has negligible cost in the worst case, while providing substantial speedups in domains where agents have a reasonable amount of private actions. We describe two variants of our approach, both with attractive privacy preserving properties, and demonstrate the value of macros empirically.},
+    keywords = {Distributed and multi-agent planning}
+}
+
+@inproceedings {icaps16-180,
+    track    = {​Main Track},
+    title    = {PARIS: A Polynomial-Time, Risk-Sensitive Scheduling Algorithm for Probabilistic Simple Temporal Networks with Uncertainty},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13138},
+    author   = {Pedro Santana and  Tiago Vaquero and  Cláudio Toledo and  Andrew Wang and  Cheng Fang and  Brian Williams},
+    abstract = {Inspired by risk-sensitive, robust scheduling for planetary rovers under temporal uncertainty, this work introduces the Probabilistic Simple Temporal Network with Uncertainty (PSTNU), a temporal planning formalism that unifies the set-bounded and probabilistic temporal uncertainty models from the STNU and PSTN literature. By allowing any combination of these two types of uncertainty models, PSTNU's can more appropriately reflect the varying levels of knowledge that a mission operator might have regarding the stochastic duration models of different activities. We also introduce PARIS, a novel sound and provably polynomial-time algorithm for risk-sensitive strong scheduling of PSTNU's. Due to its fully linear problem encoding for typical temporal uncertainty models, PARIS is shown to outperform the current fastest algorithm for risk-sensitive strong PSTN scheduling by nearly four orders of magnitude in some instances of a popular probabilistic scheduling benchmark, effectively bringing runtimes of hours to the realm of seconds or fractions of a second.},
+    keywords = {Scheduling under uncertainty}
+}
+
+@inproceedings {icaps16-181,
+    track    = {​​Robotics Track},
+    title    = {Task and Motion Policy Synthesis as Liveness Games},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13146},
+    author   = {Yue Wang and  Neil Dantam and  Swarat Chaudhuri and  Lydia Kavraki},
+    abstract = {We present a novel and scalable policy synthesis approach for robotics applications. Rather than producing single-path plans for a static environment, we consider changing environments with uncontrollable agents, where the robot needs a policy to respond correctly in the infinite interaction with the environment. Our approach operates on task and motion domains that combine actions over discrete states with continuous, collision-free paths. We synthesize a task and motion policy by iteratively verifying and searching for a policy candidate. For efficient verification, we employ Satisfiability Modulo Theories (SMT) solvers using a new extension of proof rules for policy verification. For efficient policy search, we apply domain-specific heuristics to generalize verification failures, providing stricter constraints on policy candidates. Furthermore, the SMT solver underlying our verification step enables quantitative specifications such as energy limits. We benchmark our policy synthesizer in a mobile manipulation domain, showing that our approach offers better scalability compared to a state-of-the-art robotic synthesis tool in the tested benchmarks and demonstrating order- of-magnitude speedup from our heuristics.},
+    keywords = {formal methods for robot planning and control,robot motion; path; task and mission planning and execution,human-aware planning and execution in human-robot interaction; including safety}
+}
+
+@inproceedings {icaps16-184,
+    track    = {​​​Applications Track},
+    title    = {Scheduling Ocean Color Observations for a GEO-Stationary Satellite},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13072},
+    author   = {Jeremy Frank and  Minh Do and  Tony Tran},
+    abstract = {The GEO-Stationary Coastal and Air Pollution Events (GEO-CAPE) mission plans to put a visible spectrum imaging instrument on a satellite in geo-stationary orbit to perform ocean color remote sensing. Two different instrument designs, Filter Radiometer (FR) and COastal Ecosystems Dynamic Imager (COEDI), with different size and shape for the imaged area and image acquisition time are being evaluated. Scheduling observations for each of them requires optimizing science objectives in the presence of predicted cloud cover and available daylight. We model this scheduling problem as both Mixed Integer Linear Program (MILP) and Constraint Programming (CP) problems, and compare these two formulations for FR and COEDI using real cloudiness data collected at different times throughout the year. Our results show that MILP is the more suitable technique, and the schedule quality metric conclusively shows FR is preferred. We have reported our results to the GEO-CAPE mission team to assist them making an informed decision for the next step in formulating this mission.},
+    keywords = {Evaluation; testing; and validation of P&S applications,Description and modeling of novel application domains,Engineering issues in using P&S techniques}
+}
+
+@inproceedings {icaps16-195,
+    track    = {​​Robotics Track},
+    title    = {Online Learning of Robot Soccer Free Kick Plans Using a Bandit Approach},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13180},
+    author   = {Juan Pablo Mendoza and  Reid Simmons and  Manuela Veloso},
+    abstract = {This paper presents an online learning approach for teams of autonomous soccer robots to select free kick plans. In robot soccer, free kicks present an  opportunity to execute plans with relatively controllable initial conditions. However, the effectiveness of each plan is highly dependent on the adversary, and there are few free kicks during each game, making it necessary to learn online from sparse observations.  To achieve learning, we first greatly reduce the planning space by framing the problem as a contextual multi-armed bandit problem, in which the actions are a set of pre-computed plans, and the state is the position of the free kick on the field. During execution, we model the reward function for different free kicks using Gaussian Processes, and perform online learning using the Upper Confidence Bound algorithm. Results from a physics-based simulation reveal that the robots are capable of adapting to various different realistic opponents to maximize their expected reward during free kicks.},
+    keywords = {adversarial action planning in competitive robotic domains,acquisition of planning models for robotics,learning action and task models}
+}
+
+@inproceedings {icaps16-198,
+    track    = {​Main Track},
+    title    = {A Formal Analysis of Required Cooperation in Multi-Agent Planning},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13185},
+    author   = {Yu Zhang and  Sarath Sreedharan and  Subbarao Kambhampati},
+    abstract = {While previous research has been motivated by the understanding that, 
+through cooperation, 
+multiple agents can achieve tasks that are unachievable by a single agent, 
+there are no formal characterizations of situations where cooperation is <\em required> to achieve a goal, 
+thus warranting the application of multi-agent systems. 
+In this paper, we provide such a formal characterization from the planning aspect. 
+We first show that determining whether there is required cooperation (RC) is in general intractable. 
+Then, by dividing the problems that require cooperation (referred to as RC problems) into two classes 
+-- problems with heterogeneous and homogeneous agents, 
+we identify the conditions that can cause RC in them. 
+We establish that when none of these conditions hold, the problem is single-agent solvable. 
+For problems with heterogeneous agents, 
+we propose that the concept of <\em transformer agent> can be used to improve performance 
+by reducing the number of agents to be considered in planning for many domains. 
+Furthermore, with a few assumptions, 
+we provide upper bounds on the minimum number of agents required for RC problems with homogeneous agents. 
+Finally, we implement a planner using our theoretical results and compare it with one of the best IPC CoDMAP planners in the centralized track.
+Results show that our planner significantly improves performance on most IPC CoDMAP domains.},
+    keywords = {Distributed and multi-agent planning}
+}
+
+@inproceedings {icaps16-199,
+    track    = {​​​Applications Track},
+    title    = {Optimal Scheduling of a Constellation of Earth-Imaging Satellites, for Maximal Data Throughput and Efficient Human Management},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13173},
+    author   = {Sean Augenstein and  Alejandra Estanislao and  Emmanuel Guere and  Sean Blaes},
+    abstract = {A mixed-integer linear program (MILP) approach to scheduling a large constellation of Earth-imaging satellites is presented.  The algorithm optimizes the assignment of imagery collects, image data downlinks, and "health & safety" contacts, generating schedules for all satellites and ground stations in a network.  Hardware-driven constraints (e.g., the limited agility of the satellites) and operations-driven constraints (e.g., guaranteeing a minimum contact frequency for each satellite) are both addressed.  Of critical importance to the use of this algorithm in real-world operations, it runs fast enough to allow for human operator interaction and repeated rescheduling.  This is achieved by a partitioning of the problem into sequential steps for downlink scheduling and image scheduling, with a novel dynamic programming (DP) heuristic providing a stand-in for imaging activity in the MILP when scheduling the downlinks.},
+    keywords = {}
+}
+
+@inproceedings {icaps16-20,
+    track    = {​Main Track},
+    title    = {Numeric Planning with Disjunctive Global Constraints via SMT},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13177},
+    author   = {Enrico Scala and  Miquel Ramírez and  Patrik Haslum and  Sylvie Thiebaux},
+    abstract = {This paper describes a novel encoding for sequential numeric planning into the problem of determining the satisfiability of a logical theory T. We introduce a novel technique, orthogonal to existing work aiming at producing more succinct encodings, that enables the theory solver to "roll up" an unbounded yet finite number of instances of an action into a single plan step, greatly reducing the horizon at which T models valid plans. The technique is then extended to deal with problems featuring "disjunctive global constraints", in which the state space becomes a non-convex n-dimensional polytope. In order to empirically evaluate the encoding, we build a planner, SPRINGROLL, around a state--of--the--art off--the--shelf SMT solver. Experiments on a diverse set of domains are finally reported, and results show the generality and efficiency of the approach.},
+    keywords = {Classical planning,Planning activities; motions and paths,Planning in mixed discrete / continuous domains}
+}
+
+@inproceedings {icaps16-201,
+    track    = {​Main Track},
+    title    = {Traps, Invariants, and Dead-Ends},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13190},
+    author   = {Nir Lipovetzky and  Christian Muise and  Hector Geffner},
+    abstract = {We consider the problem of deriving formulas that capture traps, invariants, and dead-ends in classical planning through polynomial forms of preprocessing. An invariant is a formula that is true in the initial state and in all reachable states. A trap is a conditional invariant: once a state is reached that makes the trap true, all the states that are reachable from it will satisfy the trap formula as well. Finally, dead-ends are formulas that are satisfied in states that make the goal unreachable. We introduce a preprocessing algorithm that computes traps in k-DNF form that is exponential in the k parameter, and show how the algorithm can be used to precompute invariants and dead-ends. We report also preliminary tests that illustrate the effectiveness of the preprocessing algorithm for identifying dead-end states, and compare it with the identification that follows from the use of the h1 and h2 heuristics that cannot be preprocessed, and must be computed at run time.},
+    keywords = {Classical planning,Model-based reasoning,Knowledge engineering for planning and scheduling}
+}
+
+@inproceedings {icaps16-202,
+    track    = {​​Robotics Track},
+    title    = {Path Planning under Interface-Based Constraints for Assistive Robotics},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13145},
+    author   = {Alexander Broad and  Brenna Argall},
+    abstract = {We present a heuristic-based search method for path planning in shared human-robot control scenarios in which the robot should adhere to specific motion constraints imposed by the human's control interface. This approach to path planning gives special consideration to kinematic and dynamic constraints introduced to reconcile discrepancies between the control space of the user and the control space of the robot. The resulting paths more closely mirror paths produced by users of the same interface; which is helpful, for example, when inferring human intent or for control sharing.  Our first insight is to develop a hierarchical finite state machine describing the constrained state space, state transitions and associated  costs. We then use this definition to embed the constraints of the interface into our heuristic planning algorithm, named C*, with simple modifications to the A*/D* family of graph search algorithms. This approach allows us to maintain powerful theoretical guarantees such as complexity and completeness. In this paper, we ground our augmented path planning algorithm with an implementation on a robotic wheelchair system and a Sip-and-Puff interface.  We demonstrate that the new approach produces paths and control signals that more closely resemble user-generated data and can easily be incorporated into real hardware systems.},
+    keywords = {robot motion; path; task and mission planning and execution,real-world planning applications for autonomous robots,mixed-initiative planning and variable autonomy for robotic systems,human-aware planning and execution in human-robot interaction; including safety}
+}
+
+@inproceedings {icaps16-204,
+    track    = {​Main Track},
+    title    = {Bayesian Optimization with Resource Constraints and Production},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13151},
+    author   = {Nima Dolatnia and  Alan Fern and  Xiaoli Fern},
+    abstract = {Bayesian optimization (BO) aims to optimize costly-to-evaluate functions by running a limited number of experiments that each evaluates the function at a selected input. Typical BO formulations assume that experiments are selected one at a time, or in fixed batches, and that experiments can be executed immediately upon request. This setup fails to capture many real-world domains where the execution of an experiment requires setup and preparation time, which may vary according to the type of experiment. In such domains, it is critical to explicitly plan for experiment preparation and setup activities in addition to making the usual BO decisions of which experiments to run. In this paper, we define a novel BO problem formulation that models the resources and activities needed to prepare and run experiments. We then present a planning approach, based on finite-horizon tree search, for scheduling the potentially current experimental activities with the aim of best optimizing the function within a limited time horizon. A key element of the approach is a novel state evaluation function for evaluating leaves of the search tree, for which we prove approximate guarantees. We evaluate the approach on a number of diverse benchmark problems and show that it produces high-quality results compared to a number of natural baselines.},
+    keywords = {Scheduling under uncertainty,Probabilistic planning; MDPs and POMDPs}
+}
+
+@inproceedings {icaps16-205,
+    track    = {​Main Track},
+    title    = {Robust Partial Order Schedules for RCPSP/max with Durational Uncertainty},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13181},
+    author   = {Na Fu and  Pradeep Varakantham and  Hoong Chuin Lau},
+    abstract = {In this work, we consider RCPSP/max with durational uncertainty. The objective is to compute robust Partial Order Schedules (or, in short POS) with stochastic posteriori quality guarantees that following the POS, project can be finished before a good (ideally, minimum) makespan. Specifically, we developed Benders decomposition algorithm and proposed cut generation scheme based on temporal analysis to solve the robust optimization problem. Compared to the state-of-art, experimental results show effectiveness and efficiency of our proposed approach in accommodating the maximum time lags constraints during robust POS exploration for RCPSP/max with durational uncertainty.},
+    keywords = {Scheduling,Scheduling under uncertainty,Constraint reasoning / OR techniques}
+}
+
+@inproceedings {icaps16-207,
+    track    = {​​​Applications Track},
+    title    = {Strategic Planning for Setting Up Base Stations in Emergency Medical Systems},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13031},
+    author   = {Supriyo Ghosh and  Pradeep Varakantham},
+    abstract = {Emergency Medical System (EMS) is an important component of public healthcare services. The construction of base stations at the ”right” locations is critical to the performance of an EMS and is the main focus of this paper. This is a computationally challenging task because of the: (a) Exponentially large action space since the set of potential locations where bases can be constructed is typically large; (b) Uncertainty and dynamism in availability of budget. In fact, budget typically arrives over time and in different chunks; (c) Direct impact on the performance of the ambulance allocation problem, where we decide allocation of ambulances to bases. We present an incremental greedy approach to discover the placement of bases that maximises the service level of EMS. Using the properties of submodular optimisation we show that our greedy algorithm provides quality guaranteed solutions for one of the objectives employed in real EMSs. Furthermore, we validate our derived policy by employing a real-life event driven simulator that incorporates the real dynamics of EMS. Finally we show the utility of our approaches on a real-world dataset from a large asian city and demonstrate significant improvement over the best known approaches from literature.},
+    keywords = {Evaluation; testing; and validation of P&S applications,Description and modeling of novel application domains}
+}
+
+@inproceedings {icaps16-224,
+    track    = {​​​Applications Track},
+    title    = {A Planning-Based Architecture for a Reconfigurable Manufacturing System},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13083},
+    author   = {Stefano Borgo and  Amedeo Cesta and  Andrea Orlandini and  Alessandro Umbrico},
+    abstract = {This paper describes a novel use of planning in Reconfigurable Manufacturing.  Authors have had the opportunity to considered the nodes of a manufacturing plant as individual AI-based agents able to plan their own action, reasoning on updated representation of their domain model, and execute.  This paper  aims at clarifying the role of planning, its connection with both a goal selection mechanism, and the agent's knowledge.   We describe in detail how a planning system has been customized for the task of planning and execution and show results of a realistic simulation. We also discuss the connection with the industrial module and illustrate some simplification that its built-in control mechanism offers with respect to the integration in other scenarios of planning and execution mechanisms.},
+    keywords = {Description and modeling of novel application domains,Integration of multiple P&S techniques; or of P&S techniques with techniques from other areas}
+}
+
+@inproceedings {icaps16-225,
+    track    = {​Main Track},
+    title    = {OGA-UCT: On-the-Go Abstractions in UCT},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13060},
+    author   = {Ankit Anand and  Ritesh Noothigattu and   Mausam and  Parag Singla},
+    abstract = {Recent work has begun exploring the value of domain
+abstractions in Monte-Carlo Tree Search (MCTS) algo-
+rithms for probabilistic planning. These algorithms au-
+tomatically aggregate symmetric search nodes (states or
+state-action pairs) saving valuable planning time. Exis-
+ting algorithms alternate between two phases: (1) ab-
+straction computation for computing node aggregations,
+and (2) modified MCTS that use aggregate nodes. We
+believe that these algorithms do not achieve the full po-
+tential of abstractions because of disjoint phases – e.g.,
+recovery from erroneous abstractions can be slow.
+
+In response, we propose On the Go Abstractions
+(OGA), a novel approach in which abstraction compu-
+tation is tightly integrated into the MCTS algorithm. We
+implement these on top of UCT and name the resulting
+algorithm OGA-UCT. It has several desirable proper-
+ties, including (1) rapid use of new information in mod-
+ifying existing abstractions, (2) elimination of the ex-
+pensive batch abstraction computation phase, and (3)
+focusing abstraction computation on important part of
+the sampled search space,. We experimentally compare
+OGA-UCT against ASAP-UCT, a recent state-of-the-
+art MDP algorithm as well as vanilla UCT algorithm.
+We find that across a suite of planning competition and
+other MDP domains, OGA-UCT performs better or at
+par with the best technique on each domain obtaining
+up to 18 % quality improvements.},
+    keywords = {Probabilistic planning; MDPs and POMDPs}
+}
+
+@inproceedings {icaps16-26,
+    track    = {​Main Track},
+    title    = {Strict Theta*: Shorter Motion Path Planning Using Taut Paths},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13049},
+    author   = {Shunhao Oh and  Hon Wai Leong},
+    abstract = {A common way to represent dynamic 2D open spaces in robotics and video games for any-angle path planning is through the use of a grid with blocked and unblocked cells. The Basic Theta* algorithm is an existing algorithm which produces near-optimal solutions with a running time close to A* on 8-directional grids. However, a disadvantage is that it often finds non-taut paths, by making unnecessary turns. In this paper, we demonstrate that by restricting the search space of Basic Theta* to taut paths, the algorithm will, in most cases, find much shorter paths than the original. We describe two novel variants of the Theta* algorithm, which are simple to implement and use, yet produce a remarkable improvement over Basic Theta* in terms of path length, with a very small running time trade-off. Another side benefit is that almost all paths found will be taut, which makes more convincing paths.},
+    keywords = {Planning activities; motions and paths}
+}
+
+@inproceedings {icaps16-28,
+    track    = {​Main Track},
+    title    = {Automated Creation of Efficient Work Distribution Functions for Parallel Best-First Search},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13081},
+    author   = {Yuu Jinnai and  Alex Fukunaga},
+    abstract = {Hash Distributed A* (HDA*) is an efficient parallel best first algorithm that asynchronously distributes work among the processes using a global hash function.
+We investigate domain-independent methods for automatically creating effective work distribution functions for HDA*. 
+First, we propose a new method for generating abstract features for the recently proposed abstract Zobrist hashing method.
+Second, we propose a method for modifying Zobrist hashing such that selected operators are guaranteed to generate children that are mapped to the same process as the parent, ensuring that no communications overhead is incurred for such operators.
+Finally, we present an improvement to state-abstraction based HDA* which dynamically selects the abstraction graph size based on problem features.
+We evaluate these new work distribution methods for a domain-independent planner on a cluster with 48 cores and show that these methods result in signficantly higher speedups than previous methods.},
+    keywords = {Classical planning,Search techniques}
+}
+
+@inproceedings {icaps16-33,
+    track    = {​​Robotics Track},
+    title    = {Indefinite-Horizon Reachability in Goal-DEC-POMDPs},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/12999},
+    author   = {Krishnendu Chatterjee and  Martin Chmelík},
+    abstract = {DEC-POMDPs extend POMDPs to a multi-agent setting, where several agents operate in an uncertain environment independently to achieve a joint objective. DEC-POMDPs have been studied with finite-horizon and infinite-horizon discounted-sum objectives, and there exist solvers both for exact and approximate solutions. 
+In this work we consider Goal-DEC-POMDPs, where given a set of target states, the objective is to ensure that the target set is reached with minimal cost.
+We consider the indefinite-horizon (infinite-horizon with either discounted-sum, or undiscounted-sum, where absorbing goal states have zero-cost) problem. 
+We present a new and novel method to solve the problem that extends methods for finite-horizon DEC-POMDPs and the RTDP-Bel approach for POMDPs. 
+We present experimental results on several examples, and show that our approach presents promising results.},
+    keywords = {formal methods for robot planning and control,planning and coordination methods for multiple robots}
+}
+
+@inproceedings {icaps16-4,
+    track    = {​Main Track},
+    title    = {Assessing the Expressivity of Planning Formalisms through the Comparison to Formal Languages},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13123},
+    author   = {Daniel Höller and  Gregor Behnke and  Pascal Bercher and  Susanne Biundo},
+    abstract = {From a theoretical perspective, judging the expressivity of planning formalisms helps to understand the relationship of different representations and to infer theoretical properties. From a practical point of view, it is important to be able to choose the best formalism for a problem at hand, or to ponder the consequences of introducing new representation features. Most work on the expressivity is based either on compilation approaches, or on the computational complexity of the plan existence problem. Recently, a new notion of expressivity was introduced. It is based on comparing the structural complexity of the set of solutions to a planning problem by interpreting the set as a formal language and classifying it with respect to the Chomsky hierarchy. This is a more direct measure than the plan existence problem and enables also the comparison of formalisms that can not be compiled into each other. While existing work on that last approach focused on different hierarchical problem classes, this paper investigates STRIPS with and without conditional effects; though we also tighten some existing results on hierarchical formalisms. Our second contribution is a discussion on the language-based expressivity measure with respect to the other approaches.},
+    keywords = {Classical planning,HTN and knowledge-based planning,Complexity analysis}
+}
+
+@inproceedings {icaps16-40,
+    track    = {​Main Track},
+    title    = {Learning Relational Dynamics of Stochastic Domains for Planning},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13079},
+    author   = {David Martínez and  Tony Ribeiro and  Katsumi Inoue and  Guillem Alenya and  Carme Torras},
+    abstract = {Probabilistic planners are very flexible tools that can provide good solutions for difficult tasks. However, they rely on a model of the domain and action, which may be costly to either hand code or automatically learn for complex tasks. We propose a new learning approach that (a) requires only a set of state transitions to learn the model; (b) can cope with uncertainty in the effects; (c) uses a relational representation to generalize over different objects; and (d) in addition to action effects, it can also learn exogenous effects that are not related to any action, e.g., moving objects, endogenous growth and natural development. The proposed learning approach combines a multi-valued variant of inductive logic programming for the generation of candidate models, with an optimization method to select the best set of planning operators to model a problem. Finally, experimental validation is provided that shows improvements over previous work.},
+    keywords = {Learning in planning and scheduling}
+}
+
+@inproceedings {icaps16-49,
+    track    = {​​​Applications Track},
+    title    = {More Shuttles, Less Cost: Energy Efficient Planning for Scalable High-Density Warehouse Environments},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13087},
+    author   = {Christian Hütter},
+    abstract = {We propose planning strategies for a shuttle-based warehousing system. Within this system, goods are not only transported by, but also stored on shuttles. This allows the simultaneous motion of all goods without preparation time. We exploit these properties to improve both space- and energy efficiency compared to conventional storage systems while maintaining fast access to all goods.
+
+The shuttles are capable of moving unit steps in x- or y direction at a time inside a rectangular grid. We present a framework to manage the shuttles in a very high density environment, allowing efficient in- and output, storage, and sequencing. The proposed framework is conflict free, complete under mild assumptions, space- and energy efficient and its practical applicability is demonstrated in a simulative analysis based on a real-world problem. In our sample application holding 1950 shuttles we achieve storage densities of approximately 88% while maintaining efficient access to all goods.},
+    keywords = {Evaluation; testing; and validation of P&S applications,Description and modeling of novel application domains}
+}
+
+@inproceedings {icaps16-52,
+    track    = {​Main Track},
+    title    = {Multi-Agent Sensor Data Collection with Attrition Risk},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/12994},
+    author   = {Jeffrey Hudack and  Jae Oh},
+    abstract = {We introduce a multi-agent route planning problem for collecting sensor data in hostile or dangerous environments when communication is unavailable. Solutions must consider the risk of losing agents as they travel through the environment, maximizing the expected value of a plan. This requires plans that balance the number of agents used with the the risk of losing them and the data they have collected so far. While there are existing approaches that mitigate risk during task assignment, they do not explicitly account for the loss of agents as part of the planning process. We analyze the unique properties of the problem and provide a hierarchical agglomerative clustering algorithm that finds high value solutions with low computational overhead. We show that our solution is highly scalable, exhibiting performance gains on large problem instances with thousands of tasks.},
+    keywords = {Adversarial planning,Distributed and multi-agent planning,Planning activities; motions and paths}
+}
+
+@inproceedings {icaps16-53,
+    track    = {​​Robotics Track},
+    title    = {Robot Motion Planning for Pouring Liquids},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13009},
+    author   = {Zherong Pan and  Chonhyon Park and  Dinesh Manocha},
+    abstract = {We present a new algorithm to compute a collision-free trajectory for a robot manipulator to pour liquid from one container to the other.  Our formulation uses a physical model of the fluid to model its highly deformable motion. We  present a simulation guided, optimization based method to automatically compute the transferring trajectory. Instead of abstract or simplified liquid models, we adopt the full-featured Navier-Stokes model that provides the fine-grained information of velocity distribution inside the liquid body. Moreover, this information is used as an additional guiding energy term. In order to avoid large number of re-simulations, required by exhaustive and stochastic trajectory search, we use simple heuristic approximations based on the result of just one pass of simulation. We have implemented the method using hybrid particle-mesh fluid simulator (FLIP) and demonstrated its performance on 4 benchmarks, with different cup shapes and viscosity coefficients.},
+    keywords = {robot motion; path; task and mission planning and execution}
+}
+
+@inproceedings {icaps16-69,
+    track    = {​​Robotics Track},
+    title    = {Integrating Planning and Control for Efficient Path Planning in the Presence of Environmental Disturbances},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13189},
+    author   = {Sandip Aine and  Sujit Pb},
+    abstract = {Path planning for nonholonomic robots in real-life environments is a challenging problem, as the planner needs to consider the presence of obstacles, the kinematic constraints of the robot as well as the environmental disturbances (like wind and currents). Previously developed search/sampling based algorithms are inefficient as they generally do not take effect of the environmental disturbances into account. On the other hand, optimal control-based techniques are too computationally intensive for real-world implementation. In this paper, we develop a generic path planning algorithm called Control Based A* (CBA*), which integrates search-based planning (on grid) with a path-following controller, taking the motion constraints and external disturbances into account. We also present another algorithm called Dynamic Control Based A* (DCBA*), which improves upon CBA* by allowing the search to look beyond the immediate grid neighborhood and thus makes it more flexible and robust, especially with high resolution grids. We investigate the performance of the new planners in different environments in comparison with the the following approaches, (i) finding a path in the discretized grid and following it with a nonholonomic robot, and (ii) a kinodynamic sampling-based path planner. The results show that our planners perform considerably better than (i) and (ii), especially in difficult situations such as in cluttered spaces or in presence of strong winds/currents.},
+    keywords = {robot motion; path; task and mission planning and execution}
+}
+
+@inproceedings {icaps16-71,
+    track    = {​Main Track},
+    title    = {Heuristic Search in Dual Space for Constrained Stochastic Shortest Path Problems},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13179},
+    author   = {Felipe Trevizan and  Sylvie Thiebaux and  Pedro Santana and  Brian Williams},
+    abstract = {We consider the problem of generating optimal stochastic policies for Constrained Stochastic Shortest Path problems, which are a natural model for planning under uncertainty for resource-bounded agents with multiple competing objectives. While unconstrained SSPs enjoy a multitude of efficient heuristic search solution methods with the ability to focus on promising areas reachable from the initial state, the state of the art for constrained SSPs revolves around linear and dynamic programming algorithms which explore the entire state space. In this paper, we present i-dual, which, to the best of our knowledge, is the first heuristic search algorithm for constrained SSPs. To concisely represent constraints and efficiently decide their violation, i-dual operates in the space of dual variables describing the policy occupation measures. It does so while retaining the ability to use standard value function heuristics computed by well-known methods. Our experiments on a suite of PPDDL problems augmented with constraints show that these features enables i-dual to achieve significant run-time improvements over linear programming algorithms.},
+    keywords = {Probabilistic planning; MDPs and POMDPs}
+}
+
+@inproceedings {icaps16-72,
+    track    = {​​​Applications Track},
+    title    = {Towards Next Generation Touring: Personalized Group Tours},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/12803},
+    author   = {Kwan Hui Lim and  Jeffrey Chan and  Christopher Leckie and  Shanika Karunasekera},
+    abstract = {Recommending and planning tour itineraries are challenging and time-consuming for tourists, hence they may seek tour operators for help. Traditionally tour operators have offered standard tour packages of popular locations, but these packages may not cater to tourist's interests.  In addition, tourists may want to travel in a group, e.g., extended family, and want an operator to help them.  In this paper, we introduce the novel problem of group tour recommendation (GroupTourRec), which involves many challenges: forming tour groups whose members have similar interests; recommending Points-of-Interests (POI) that form the tour itinerary and cater for the group's interests; and assigning guides to lead these tours. For each challenge, we propose solutions involving: clustering for tourist groupings; optimizing a variant of the Orienteering problem for POI recommendations; and integer programming for tour guide assignments. Using a Flickr dataset of seven cities, we compare our proposed approaches against various baselines and observe significant improvements in terms of interest similarity, total/maximum/minimum tour interests and total tour guide expertise.},
+    keywords = {Evaluation; testing; and validation of P&S applications,Description and modeling of novel application domains,Integration of multiple P&S techniques; or of P&S techniques with techniques from other areas}
+}
+
+@inproceedings {icaps16-76,
+    track    = {​​​Applications Track},
+    title    = {Leveraging Probabilistic Reasoning in Deterministic Planning for Large-Scale Autonomous Search-and-Tracking},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13178},
+    author   = {Sara Bernardini and  Maria Fox and  Derek Long and  Chiara Piacentini},
+    abstract = {Search-And-Tracking (SaT) is the problem of searching for a mobile target and tracking it once it is found. Since SaT platforms face many sources of uncertainty and operational constraints, progress in the field has been restricted to simple and unrealistic scenarios. In this paper, we propose a new hybrid approach to SaT that allows us to successfully address large-scale and complex SaT missions. The probabilistic structure of SaT is compiled into a deterministic planning model and Bayesian inference is directly incorporated in the planning mechanism. Thanks to this tight integration between automated planning and probabilistic reasoning, we are able to exploit the power of both approaches. Planning provides the tools to efficiently explore big search spaces, while Bayesian inference, by readily combining prior knowledge with observable data, allows the planner to make more informed and effective decisions. We offer experimental evidence of the potential of our approach.},
+    keywords = {Description and modeling of novel application domains,Integration of multiple P&S techniques; or of P&S techniques with techniques from other areas}
+}
+
+@inproceedings {icaps16-77,
+    track    = {​Main Track},
+    title    = {Search Portfolio with Sharing},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13126},
+    author   = {Sandip Aine and  Maxim Likhachev},
+    abstract = {Over the years, a number of search algorithms have been proposed in AI literature, ranging from best-first to depth-first searches, from incomplete to optimal searches, from linear memory to unbounded memory searches; each having their strengths and weaknesses. The variability in performance of these algorithms makes algorithm selection a hard problem, especially for performance critical domains. Algorithm portfolios alleviate this problem by simultaneously running multiple algorithms to solve a given problem instance, exploiting their diversity. In general, the portfolio methods do not share information among candidate algorithms. Our work is based on the observation that if the algorithms within a portfolio can share information, it may significantly enhance the performance, as one algorithm can now utilize partial results computed by other algorithms. To this end, we introduce a new search framework, called Search Portfolio with Sharing},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13126 (SP-S), which uses multiple search algorithms to explore a given state-space in an integrated manner, seamlessly combining partial solutions while preserving the constraints/characteristics of the candidate algorithms. In addition, SP-S can be easily adopted to guarantee theoretical properties like completeness, bounded sub-optimality, and bounded re-expansions.  We describe the basics of the SP-S framework and explain how different classes of search algorithms can be integrated in SP-S. We discuss its theoretical properties and present experimental results for multiple domains demonstrating the utility of such a shared approach.},
+    keywords = {Search techniques}
+}
+
+@inproceedings {icaps16-78,
+    track    = {​Main Track},
+    title    = {Heuristic Guidance for Forward-Chaining Planning with Numeric Uncertainty},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13186},
+    author   = {Liana E. Marinescu and  Andrew Coles},
+    abstract = {Uncertainty hinders many interesting applications of planning -- it may come in the form of sensor noise, unpredictable environments, or known limitations in problem models. In this paper we explore heuristic guidance for forward-chaining planning with continuous random variables, while ensuring a probability of plan success. We extend the Metric Relaxed Planning Graph heuristic to capture a model of uncertainty, providing better guidance in terms of heuristic estimates and dead-end detection. By tracking the accumulated error on numeric values, our heuristic is able to check if preconditions in the planning graph are achievable with a sufficient degree of confidence; it is also able to consider acting to reduce the accumulated error. Results indicate that our approach offers improvements in performance compared to prior work where a less-informed relaxation was used.},
+    keywords = {Classical planning,Probabilistic planning; MDPs and POMDPs,Planning under (non-probabilistic) uncertainty}
+}
+
+@inproceedings {icaps16-8,
+    track    = {​​​Applications Track},
+    title    = {Planning and Control of Marine Floats in the Presence of Dynamic, Uncertain Currents},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/12991},
+    author   = {Martina Troesch and  Steve Chien and  Yi Chao and  John Farrara},
+    abstract = {We address the control of a vertically profiling float using ocean-model-based predictions of future currents. While these problems are in reality continuous control problems, we solve them by searching a discrete space of future actions. Additionally, while the environment is a continuous space, the ocean model we use is a discrete cell-based model. We show that although the problem of predictive modeling ocean conditions is a difficult one, the knowledge provided makes it worthwhile to plan the control sequence for a vertically profiling float when a trade-off needs to be made between remaining at the same location as a virtual mooring and collecting more data with more profiles.  We first present data from simulation in the ROMS integrated ocean modeling system that shows the performance advantage of batch planning over blind profiling.  We also present anecdotal evidence from deployment of EM-APEX floats that shows that where the ROMS predictions are not very informative the float control performance suffers.},
+    keywords = {Evaluation; testing; and validation of P&S applications,Description and modeling of novel application domains}
+}
+
+@inproceedings {icaps16-82,
+    track    = {​Main Track},
+    title    = {A Semantic Notion of Interference for Planning Modulo Theories},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/12989},
+    author   = {Miquel Bofill and  Joan Espasa Arxer and  Mateu Villaret},
+    abstract = {The aim of being able to reason about quantities, time, space and
+much more has been the main objective of the many efforts on the
+integration of propositional planning with extensions to handle
+different theories. Planning Modulo Theories (PMT) is an
+approximation inspired by Satisfiability Modulo Theories (SMT) that 
+generalizes the integration of arbitrary theories with propositional
+planning. Parallel plans are crucial to reduce plan lengths and
+hence the time needed to reach a feasible plan in many approaches.
+Parallelization of actions relies on the notion of
+(non-)interference, which is usually determined syntactically at
+compile time. In this paper we present a general semantic notion of
+interference between actions in PMT. Along its generality, this 
+notion can be efficiently checked at compile time by means of
+satisfiability checks.},
+    keywords = {Classical planning,Planning in mixed discrete / continuous domains}
+}
+
+@inproceedings {icaps16-83,
+    track    = {​Main Track},
+    title    = {Hierarchical Linearly-Solvable Markov Decision Problems},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13090},
+    author   = {Anders Jonsson and  Vicenç Gómez},
+    abstract = {We present a hierarchical reinforcement learning framework that formulates each task in the hierarchy as a special type of Markov decision process for which the Bellman equation is linear and has analytical solution. Problems of this type, called linearly-solvable MDPs (LMDPs) have interesting properties that can be exploited in a hierarchical setting, such as efficient learning of the optimal value function or task compositionality. The proposed hierarchical approach can also be seen as a novel alternative to solve LMDPs with large state spaces. We derive a hierarchical version of the so-called Z-learning algorithm that learns different tasks simultaneously and show empirically that it significantly outperforms the state-of-the-art learning methods in two classical HRL domains: the taxi domain and an autonomous guided vehicle task.},
+    keywords = {Control and optimisation of dynamical systems,Probabilistic planning; MDPs and POMDPs,Planning under (non-probabilistic) uncertainty,Learning in planning and scheduling}
+}
+
+@inproceedings {icaps16-88,
+    track    = {​​​Applications Track},
+    title    = {Solving Realistic Unit Commitment Problems Using Temporal Planning: Challenges and Solutions},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/12992},
+    author   = {Chiara Piacentini and  Daniele Magazzeni and  Derek Long and  Maria Fox and  Chris Dent},
+    abstract = {When facing real world planning problems, standard planners are often inadequate and enhancement of the current techniques are required. In this paper we present the challenges that we have faced in solving the Unit Commitment (UC) problem, a well-known problem in the electrical power industry for which current best methods are based on Mixed Integer Programming (MIP). Typical UC instances involve hundreds or even thousands of generating units, pushing the scalability of state of the art planners beyond their limits. Furthermore, UC is characterised by state-dependent action costs, a feature that not many domain independent planners can efficiently handle. In this paper we focus on the challenge of making domain-independent planning competitive with the MIP method on realistic-sized UC instances. We present the results of our investigation into modelling the UC problem as a temporal planning problem, and show how we scaled up from handling fewer than 10 generating units to more than 400, obtaining solutions almost as high quality as those generated by MIP. We conclude by discussing future directions for temporal planning in this domain, that lie beyond what can be modelled and solved using MIP methods.},
+    keywords = {Description and modeling of novel application domains,Engineering issues in using P&S techniques}
+}
+
+@inproceedings {icaps16-91,
+    track    = {​​​Applications Track},
+    title    = {Computing Trace Alignment against Declarative Process Models through Planning},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13094},
+    author   = {Giuseppe De Giacomo and  Fabrizio Maria Maggi and  Andrea Marrella and  Sebastian Sardina},
+    abstract = {Process mining techniques aim at extracting non-trivial knowledge from event traces, which record the concrete execution of business processes. Typically, traces are "dirty" and contain spurious events or miss relevant events. Trace alignment is the problem of cleaning such traces against a process specification. There has recently been a growing use of declarative process models, e.g.,
+Declare (based on LTL over finite traces) to capture constraints on the allowed task flows. We demonstrate here how state-of-the-art classical planning technologies can be used for trace alignment by presenting a suitable encoding. We report experimental results using a real log from a financial domain.},
+    keywords = {Evaluation; testing; and validation of P&S applications,Description and modeling of novel application domains}
+}
+
+@inproceedings {icaps16-94,
+    track    = {​Main Track},
+    title    = {Dual Formulations for Optimizing Dec-POMDP Controllers},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13124},
+    author   = {Akshat Kumar and  Hala Mostafa and  Shlomo Zilberstein},
+    abstract = {The decentralized POMDP is an expressive model for multiagent sequential decision making. Finite-state controllers (FSCs)---often used to represent policies for infinite-horizon problems---offer a compact, simple-to-execute policy representation. We exploit novel connections between optimizing decentralized FSCs and the dual linear program for MDPs.  Consequently, we describe a dual mixed integer linear program (MIP) for optimizing deterministic FSCs. We exploit the Dec-POMDP structure to devise a compact MIP and formulate constraints that result in policies executable in partially-observable decentralized settings. We further show that the dual formulation can be exploited within the Expectation Maximization (EM) framework to optimize stochastic FSCs. The resulting EM algorithm can be implemented by solving a sequence of linear programs, without requiring expensive message-passing over the Dec-POMDP DBN. We also contribute towards developing efficient techniques for policy improvement by iteratively adding nodes to the FSCs. Compared with state-of-the-art FSC methods, our approach offers more than an order-of-magnitude speedup, while producing similar or better solutions.},
+    keywords = {Probabilistic planning; MDPs and POMDPs,Distributed and multi-agent planning}
+}
+
+@inproceedings {icaps16-95,
+    track    = {​Main Track},
+    title    = {Change the Plan - How Hard Can That Be?},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13099},
+    author   = {Gregor Behnke and  Daniel Höller and  Pascal Bercher and  Susanne Biundo},
+    abstract = {Interaction with users is a key capability of planning systems that are applied in real-world settings.
+Such a system has to be able to react appropriately to requests issued by its users, which are in most systems based on a generated plan that is continually criticised by him, resulting in a mixed-initiative planning system.
+We present several practically relevant requests to change a plan in the setting of hierarchical task network planning and investigate their computational complexity.
+On the one hand, these results provide guidelines when constructing an algorithm to execute the respective requests, but also provide translations to other well-known planning queries like plan existence or verification.
+These can be employed to extend an existing planner such that it can form the foundation of a mixed-initiative planning system simply by adding a translation layer on top.},
+    keywords = {HTN and knowledge-based planning,Complexity analysis}
+}
+
+@inproceedings {icaps16-96,
+    track    = {​Main Track},
+    title    = {Have I Been Here Before? State Memoization in Temporal Planning},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13187},
+    author   = {Amanda Coles and  Andrew Coles},
+    abstract = {State memoization is critical to the good performance of heuristic forward search planners, which represent a significant proportion of the current state-of-the-art planning approaches.  In non-temporal planning it is sufficient to discard any state that has been generated before, regardless of the path taken to reach that state, with the only side-constraint being plan cost.  We begin this paper by demonstrating that the use of this technique in temporal planning can lead to loss of optimality with respect to metrics involving makespan and that in the case of more expressive domains can lead to loss of completeness. We identify the specific conditions under which this occurs: states where actions are currently executing.  Following from this we introduce new memoization techniques for expressive temporal planning problems that are both completeness and optimality preserving, solving the challenging problem of determining when two states in temporal planning can be considered equivalent. Finally, we demonstrate that these have significant impact on improving the planning performance across a wide range of temporal planning benchmarks in the POPF planning framework.},
+    keywords = {Temporal planning}
+}
+
+@inproceedings {icaps16-98,
+    track    = {​​Robotics Track},
+    title    = {Real-Time Stochastic Optimal Control for Multi-Agent Quadrotor Systems},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13105},
+    author   = {Vicenç Gómez and  Sep Thijssen and  Andrew Symington and  Stephen Hailes and  Bert Kappen},
+    abstract = {This paper presents a novel method for controlling teams of unmanned aerial vehicles using Stochastic Optimal Control (SOC) theory. The approach consists of a centralized high-level controller that computes optimal state trajectories as velocity sequences, and a platform-specific low-level controller which ensures that these velocity sequences are met. The high-level control task is expressed as a centralized path-integral control problem, for which optimal control computation corresponds to a probabilistic inference problem that can be solved by efficient sampling methods. Through simulation we show that our SOC approach (a) has significant benefits compared to deterministic control and other SOC methods in multi-modal problems with noise-dependent optimal solutions, (b) is capable of controlling a large number of platforms in real-time, and (c) yields collective emergent behavior in the form of flight formations. Finally, we show that our approach works for real platforms, by controlling a team of three quadrotors.},
+    keywords = {planning and coordination methods for multiple robots,robot motion; path; task and mission planning and execution,acquisition of planning models for robotics,integrated planning and execution in robotic architectures,real-world planning applications for autonomous robots}
+}
+
+@inproceedings {icaps16-99,
+    track    = {​Main Track},
+    title    = {Potential Heuristics for Multi-Agent Planning},
+    url      = {http://www.aaai.org/ocs/index.php/ICAPS/ICAPS16/paper/view/13117},
+    author   = {Michal Štolba and  Daniel Fišer and  Antonín Komenda},
+    abstract = {Distributed heuristic search is a well established technique for multi-agent planning. It has been shown that distributed heuristics may crucially improve the search guidance, but are costly in terms of communication and computation time. One solution is to compute a heuristic additively, in the sense that each agent can compute its part of the heuristic independently and obtain a complete heuristic estimate by summing up the individual parts. In this paper, we show that the recently published potential heuristic is a good candidate for such heuristic, moreover admissible. We also demonstrate how the multi-agent distributed A* search can be modified in order to benefit from such additive heuristic. The modified search equipped with a distributed potential heuristic outperforms the state of the art.},
+    keywords = {Distributed and multi-agent planning}
+}

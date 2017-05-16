@@ -1,0 +1,402 @@
+submission #	topic
+1	Scheduling
+2	Classical planning
+2	Search techniques
+4	Classical planning
+4	Complexity analysis
+4	HTN and knowledge-based planning
+5	formal methods for robot planning and control
+5	integrated planning and execution in robotic architectures
+5	planning and coordination methods for multiple robots
+5	"robot motion, path, task and mission planning and execution"
+6	Multi-objective planning and scheduling
+6	Scheduling
+7	Multi-objective planning and scheduling
+7	Scheduling
+8	Description and modeling of novel application domains
+8	"Evaluation, testing, and validation of P&S applications"
+9	Planning in mixed discrete / continuous domains
+9	Search techniques
+10	"Evaluation, testing, and validation of P&S applications"
+10	"Integration of multiple P&S techniques, or of P&S techniques with techniques from other areas"
+11	planning and coordination methods for multiple robots
+12	planning for long-term autonomy in robotics
+12	real-world planning applications for autonomous robots
+12	"robot motion, path, task and mission planning and execution"
+14	Applications and case studies
+14	Multi-objective planning and scheduling
+14	"Planning activities, motions and paths"
+14	Search techniques
+15	Description and modeling of novel application domains
+15	"Evaluation, testing, and validation of P&S applications"
+16	"Activity, goal and plan recognition"
+17	Distributed and multi-agent planning
+18	Distributed and multi-agent planning
+19	Distributed and multi-agent planning
+20	Classical planning
+20	"Planning activities, motions and paths"
+20	Planning in mixed discrete / continuous domains
+21	Distributed and multi-agent planning
+22	benchmark planning domains for robots
+22	"human-aware planning and execution in human-robot interaction, including safety"
+22	planning domain representations for robotics applications
+23	Applications and case studies
+23	Constraint reasoning / OR techniques
+23	Search techniques
+24	Scheduling
+24	Scheduling under uncertainty
+24	Temporal planning
+25	"human-aware planning and execution in human-robot interaction, including safety"
+25	planning and coordination methods for multiple robots
+26	"Planning activities, motions and paths"
+27	Description and modeling of novel application domains
+28	Classical planning
+28	Search techniques
+29	Complexity analysis
+29	Scheduling
+30	Description and modeling of novel application domains
+31	Learning in planning and scheduling
+31	Scheduling
+33	formal methods for robot planning and control
+33	planning and coordination methods for multiple robots
+34	Distributed and multi-agent planning
+34	Model-based reasoning
+34	Temporal planning
+36	Classical planning
+36	Complexity analysis
+36	Multi-objective planning and scheduling
+37	Description and modeling of novel application domains
+37	"Evaluation, testing, and validation of P&S applications"
+38	"Activity, goal and plan recognition"
+38	Adversarial planning
+40	Learning in planning and scheduling
+42	Classical planning
+42	Learning in planning and scheduling
+42	Online/real-time planning and scheduling
+43	Applications and case studies
+43	Multi-objective planning and scheduling
+43	"Planning activities, motions and paths"
+43	Planning in mixed discrete / continuous domains
+43	Scheduling
+43	Temporal planning
+44	Description and modeling of novel application domains
+44	"Integration of multiple P&S techniques, or of P&S techniques with techniques from other areas"
+45	integrated planning and execution in robotic architectures
+45	"robot motion, path, task and mission planning and execution"
+46	planning and coordination methods for multiple robots
+46	real-world planning applications for autonomous robots
+46	"robot motion, path, task and mission planning and execution"
+48	Multi-objective planning and scheduling
+48	Search techniques
+49	Description and modeling of novel application domains
+49	"Evaluation, testing, and validation of P&S applications"
+50	"Probabilistic planning, MDPs and POMDPs"
+51	Applications and case studies
+51	Classical planning
+51	Planning under (non-probabilistic) uncertainty
+52	Adversarial planning
+52	Distributed and multi-agent planning
+52	"Planning activities, motions and paths"
+53	"robot motion, path, task and mission planning and execution"
+54	"Activity, goal and plan recognition"
+54	"Probabilistic planning, MDPs and POMDPs"
+56	Learning in planning and scheduling
+56	"Probabilistic planning, MDPs and POMDPs"
+56	Robust planning with incomplete models
+57	Control and optimisation of dynamical systems
+57	Distributed and multi-agent planning
+57	Model-based reasoning
+57	"Probabilistic planning, MDPs and POMDPs"
+58	Description and modeling of novel application domains
+58	"Evaluation, testing, and validation of P&S applications"
+59	planning and coordination methods for multiple robots
+59	planning domain representations for robotics applications
+60	Description and modeling of novel application domains
+60	Engineering issues in using P&S techniques
+60	"Integration of multiple P&S techniques, or of P&S techniques with techniques from other areas"
+62	Classical planning
+62	Planning in mixed discrete / continuous domains
+63	planning and coordination methods for multiple robots
+63	"robot motion, path, task and mission planning and execution"
+64	Description and modeling of novel application domains
+66	Classical planning
+66	Search techniques
+67	learning action and task models
+67	real-world planning applications for autonomous robots
+67	"robot motion, path, task and mission planning and execution"
+69	"robot motion, path, task and mission planning and execution"
+71	"Probabilistic planning, MDPs and POMDPs"
+72	Description and modeling of novel application domains
+72	"Evaluation, testing, and validation of P&S applications"
+72	"Integration of multiple P&S techniques, or of P&S techniques with techniques from other areas"
+73	Complexity analysis
+73	Planning under (non-probabilistic) uncertainty
+74	Classical planning
+74	Search techniques
+75	"robot motion, path, task and mission planning and execution"
+76	Description and modeling of novel application domains
+76	"Integration of multiple P&S techniques, or of P&S techniques with techniques from other areas"
+77	Search techniques
+78	Classical planning
+78	Planning under (non-probabilistic) uncertainty
+78	"Probabilistic planning, MDPs and POMDPs"
+79	integrated planning and execution in robotic architectures
+79	"robot motion, path, task and mission planning and execution"
+80	acquisition of planning models for robotics
+80	integrated planning and execution in robotic architectures
+80	planning domain representations for robotics applications
+80	real-world planning applications for autonomous robots
+80	"robot motion, path, task and mission planning and execution"
+81	Applications and case studies
+81	Learning in planning and scheduling
+81	Online/real-time planning and scheduling
+81	"Probabilistic planning, MDPs and POMDPs"
+82	Classical planning
+82	Planning in mixed discrete / continuous domains
+83	Control and optimisation of dynamical systems
+83	Learning in planning and scheduling
+83	Planning under (non-probabilistic) uncertainty
+83	"Probabilistic planning, MDPs and POMDPs"
+84	"robot motion, path, task and mission planning and execution"
+85	Classical planning
+85	HTN and knowledge-based planning
+85	Knowledge engineering for planning and scheduling
+85	Search techniques
+86	Classical planning
+86	"Planning activities, motions and paths"
+86	Search techniques
+87	"robot motion, path, task and mission planning and execution"
+88	Description and modeling of novel application domains
+88	Engineering issues in using P&S techniques
+90	Classical planning
+90	"Probabilistic planning, MDPs and POMDPs"
+91	Description and modeling of novel application domains
+91	"Evaluation, testing, and validation of P&S applications"
+92	Classical planning
+92	Learning in planning and scheduling
+92	Search techniques
+93	Assessment of impact on end users
+93	Description and modeling of novel application domains
+93	Engineering issues in using P&S techniques
+93	"Integration of multiple P&S techniques, or of P&S techniques with techniques from other areas"
+93	"User interface design, visualization and explanation for a P&S application"
+94	Distributed and multi-agent planning
+94	"Probabilistic planning, MDPs and POMDPs"
+95	Complexity analysis
+95	HTN and knowledge-based planning
+96	Temporal planning
+98	acquisition of planning models for robotics
+98	integrated planning and execution in robotic architectures
+98	planning and coordination methods for multiple robots
+98	real-world planning applications for autonomous robots
+98	"robot motion, path, task and mission planning and execution"
+99	Distributed and multi-agent planning
+100	Classical planning
+103	Assessment of impact on end users
+103	Description and modeling of novel application domains
+103	Engineering issues in using P&S techniques
+104	Scheduling
+104	Temporal planning
+105	Description and modeling of novel application domains
+106	acquisition of planning models for robotics
+106	integrated planning and execution in robotic architectures
+106	learning action and task models
+106	planning domain representations for robotics applications
+106	real-world planning applications for autonomous robots
+107	HTN and knowledge-based planning
+107	Search techniques
+108	Description and modeling of novel application domains
+108	"Evaluation, testing, and validation of P&S applications"
+108	"Integration of multiple P&S techniques, or of P&S techniques with techniques from other areas"
+109	Applications and case studies
+109	Multi-objective planning and scheduling
+109	"Planning activities, motions and paths"
+111	Classical planning
+111	Complexity analysis
+112	Distributed and multi-agent planning
+113	Description and modeling of novel application domains
+113	Engineering issues in using P&S techniques
+114	Applications and case studies
+114	Complexity analysis
+114	Constraint reasoning / OR techniques
+114	Control and optimisation of dynamical systems
+115	"Activity, goal and plan recognition"
+117	"Execution, monitoring and repair"
+117	Scheduling
+117	Scheduling under uncertainty
+117	Temporal planning
+118	Classical planning
+118	Search techniques
+119	Classical planning
+120	Applications and case studies
+120	Classical planning
+120	"Planning activities, motions and paths"
+120	Search techniques
+121	"human-aware planning and execution in human-robot interaction, including safety"
+121	real-world planning applications for autonomous robots
+122	"Activity, goal and plan recognition"
+122	"Execution, monitoring and repair"
+125	Classical planning
+125	Search techniques
+126	Search techniques
+127	Classical planning
+127	"Probabilistic planning, MDPs and POMDPs"
+127	Search techniques
+128	"human-aware planning and execution in human-robot interaction, including safety"
+128	real-world planning applications for autonomous robots
+128	"robot motion, path, task and mission planning and execution"
+129	Classical planning
+130	Conformant/contingent planning
+130	Planning under (non-probabilistic) uncertainty
+132	Classical planning
+132	Constraint reasoning / OR techniques
+133	benchmark planning domains for robots
+133	integrated planning and execution in robotic architectures
+134	"Probabilistic planning, MDPs and POMDPs"
+135	Engineering issues in using P&S techniques
+136	Classical planning
+136	HTN and knowledge-based planning
+137	Planning under (non-probabilistic) uncertainty
+137	Temporal planning
+138	Complexity analysis
+138	Online/real-time planning and scheduling
+138	Scheduling
+139	Classical planning
+139	HTN and knowledge-based planning
+139	Learning in planning and scheduling
+140	"human-aware planning and execution in human-robot interaction, including safety"
+140	planning domain representations for robotics applications
+140	"robot motion, path, task and mission planning and execution"
+141	Classical planning
+142	Planning in mixed discrete / continuous domains
+143	"robot motion, path, task and mission planning and execution"
+145	"robot motion, path, task and mission planning and execution"
+146	Description and modeling of novel application domains
+146	Engineering issues in using P&S techniques
+146	"Evaluation, testing, and validation of P&S applications"
+146	"Integration of multiple P&S techniques, or of P&S techniques with techniques from other areas"
+147	Constraint reasoning / OR techniques
+147	Planning in mixed discrete / continuous domains
+148	Classical planning
+148	Complexity analysis
+148	HTN and knowledge-based planning
+148	Search techniques
+149	Assessment of impact on end users
+149	Description and modeling of novel application domains
+149	"Evaluation, testing, and validation of P&S applications"
+149	Experiences in deployment and maintenance of P&S applications
+149	"User interface design, visualization and explanation for a P&S application"
+150	Classical planning
+150	HTN and knowledge-based planning
+151	"Activity, goal and plan recognition"
+151	Model-based reasoning
+151	Reasoning about action and change
+152	Knowledge engineering for planning and scheduling
+153	Description and modeling of novel application domains
+153	"Integration of multiple P&S techniques, or of P&S techniques with techniques from other areas"
+154	"robot motion, path, task and mission planning and execution"
+155	Classical planning
+155	Conformant/contingent planning
+155	Planning under (non-probabilistic) uncertainty
+155	Search techniques
+157	"robot motion, path, task and mission planning and execution"
+158	planning and coordination methods for multiple robots
+158	real-world planning applications for autonomous robots
+158	"robot motion, path, task and mission planning and execution"
+160	planning and coordination methods for multiple robots
+160	real-world planning applications for autonomous robots
+160	"robot motion, path, task and mission planning and execution"
+161	Planning under (non-probabilistic) uncertainty
+163	planning and coordination methods for multiple robots
+163	"robot motion, path, task and mission planning and execution"
+164	Scheduling
+164	Temporal planning
+166	"Integration of multiple P&S techniques, or of P&S techniques with techniques from other areas"
+168	Planning in mixed discrete / continuous domains
+168	Temporal planning
+169	planning for perception
+169	real-world planning applications for autonomous robots
+169	"robot motion, path, task and mission planning and execution"
+170	Distributed and multi-agent scheduling
+170	Scheduling
+172	"robot motion, path, task and mission planning and execution"
+173	real-world planning applications for autonomous robots
+173	"robot motion, path, task and mission planning and execution"
+176	Distributed and multi-agent planning
+176	Planning under (non-probabilistic) uncertainty
+178	planning domain representations for robotics applications
+178	planning for perception
+178	"robot motion, path, task and mission planning and execution"
+180	Scheduling under uncertainty
+181	formal methods for robot planning and control
+181	"human-aware planning and execution in human-robot interaction, including safety"
+181	"robot motion, path, task and mission planning and execution"
+184	Description and modeling of novel application domains
+184	Engineering issues in using P&S techniques
+184	"Evaluation, testing, and validation of P&S applications"
+185	Classical planning
+185	Knowledge engineering for planning and scheduling
+187	Multi-objective planning and scheduling
+187	Scheduling
+187	Search techniques
+191	"human-aware planning and execution in human-robot interaction, including safety"
+191	integrated planning and execution in robotic architectures
+191	real-world planning applications for autonomous robots
+192	Search techniques
+193	Planning under (non-probabilistic) uncertainty
+195	acquisition of planning models for robotics
+195	adversarial action planning in competitive robotic domains
+195	learning action and task models
+197	planning for long-term autonomy in robotics
+197	real-world planning applications for autonomous robots
+198	Distributed and multi-agent planning
+201	Classical planning
+201	Knowledge engineering for planning and scheduling
+201	Model-based reasoning
+202	"human-aware planning and execution in human-robot interaction, including safety"
+202	mixed-initiative planning and variable autonomy for robotic systems
+202	real-world planning applications for autonomous robots
+202	"robot motion, path, task and mission planning and execution"
+203	Description and modeling of novel application domains
+204	"Probabilistic planning, MDPs and POMDPs"
+204	Scheduling under uncertainty
+205	Constraint reasoning / OR techniques
+205	Scheduling
+205	Scheduling under uncertainty
+206	Assessment of impact on end users
+206	Description and modeling of novel application domains
+206	"Evaluation, testing, and validation of P&S applications"
+206	"User interface design, visualization and explanation for a P&S application"
+207	Description and modeling of novel application domains
+207	"Evaluation, testing, and validation of P&S applications"
+208	Applications and case studies
+208	Online/real-time planning and scheduling
+208	Search techniques
+212	"human-aware planning and execution in human-robot interaction, including safety"
+216	"robot motion, path, task and mission planning and execution"
+217	adversarial action planning in competitive robotic domains
+217	benchmark planning domains for robots
+221	Learning in planning and scheduling
+221	"Probabilistic planning, MDPs and POMDPs"
+221	Reasoning about action and change
+223	planning for long-term autonomy in robotics
+223	real-world planning applications for autonomous robots
+223	"robot motion, path, task and mission planning and execution"
+224	Description and modeling of novel application domains
+224	"Integration of multiple P&S techniques, or of P&S techniques with techniques from other areas"
+225	"Probabilistic planning, MDPs and POMDPs"
+228	Engineering issues in using P&S techniques
+228	"Integration of multiple P&S techniques, or of P&S techniques with techniques from other areas"
+231	Learning in planning and scheduling
+231	"Probabilistic planning, MDPs and POMDPs"
+231	Reasoning about action and change
+232	Online/real-time planning and scheduling
+232	Robust planning with incomplete models
+234	Constraint reasoning / OR techniques
+234	Learning in planning and scheduling
+235	Planning in mixed discrete / continuous domains
+235	Scheduling
+235	Temporal planning
+239	planning domain representations for robotics applications
+239	real-world planning applications for autonomous robots
+239	"robot motion, path, task and mission planning and execution"
